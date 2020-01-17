@@ -4,3 +4,4 @@
 [submodule "zigtag.github.io"]
 	path = zigtag.github.io
 	url = https://github.com/ZigTag/zigtag.github.io.git
+	branch = master
