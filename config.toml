@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://zigtag.github.io/"
 languageCode = "en-us"
 theme = "hugo-theme-hello-friend-ng"
 publishdir = "zigtag.github.io"
@@ -33,7 +33,7 @@ publishdir = "zigtag.github.io"
     title = "ZigTag"
     subtitle = ""
     keywords = ""
-    copyright = "MIT"
+    copyright = '<a href="https://opensource.org/licenses/MIT">MIT</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
@@ -50,7 +50,7 @@ publishdir = "zigtag.github.io"
     name = "About"
     url = "about/"
   
-  # [[menu.main]]
-  #   identifier = "blog"
-  #   name       = "Blog"
-  #   url        = "/posts"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
