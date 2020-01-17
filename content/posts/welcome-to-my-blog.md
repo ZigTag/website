@@ -2,7 +2,7 @@
 ---
 author:
   name: "ZigTag"
-date: 2020-01-16
+date: 2020-01-16T21:00:00-0800
 title: "Welcome to my blog"
 draft: false
 ---
