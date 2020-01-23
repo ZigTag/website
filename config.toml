@@ -1,6 +1,6 @@
 baseurl = "https://zigtag.github.io/"
 languageCode = "en-us"
-theme = "hugo-theme-hello-friend-ng"
+theme = "hello-friend-ng"
 publishdir = "zigtag.github.io"
 
 [author]
