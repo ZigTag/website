@@ -1,4 +1,4 @@
-baseurl = "https://zigtag.github.io/"
+baseurl = "https://zigtag.dev/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 publishdir = "public"
