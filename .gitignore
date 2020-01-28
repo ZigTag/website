@@ -1,1 +1,6 @@
+# Hugo
 resources/_gen
+public
+
+# Local Netlify folder
+.netlify

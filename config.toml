@@ -1,60 +1,184 @@
 baseurl = "https://zigtag.dev/"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+title = "zigtag.dev"
+theme = "KeepIt"
 publishdir = "public"
+
+enableEmoji = true
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
+  
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  # [[menu.main]]
+  #   name = "Categories"
+  #   url = "/categories/"
+  #   weight = 3
+
+[params]
+    since = 2020
+    author = "ZigTag"               # Author's name
+    subtitle = "ZigTag's homepage and website"       # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+
+    # google_verification = ""
+    # bing_verification = ""
+    # yandex_verification = ""
+    # pinterest_verification = ""
+    # baidu_verification = ""
+
+    avatar = "https://avatars3.githubusercontent.com/u/17077422" #comment it to use gravatar
+    socialShare = false
+
+    description = "ZigTag's homepage and website" # site description
+    keywords = "" # site keywords
+
+    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://choosealicense.com/licenses/mit/" target="_blank">MIT</a>'
+
+# [params.gravatar]
+#     #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+
+
+[params.social]
+    GitHub = "https://github.com/ZigTag/website"
+    # Linkedin = "xxxx"
+    # Twitter = "xxxx"
+    # Instagram = "xxxx"
+    # Email   = "xxxx"
+    # Facebook = "xxxx"
+    # Telegram = "xxxx"
+    # Medium = "xxxx"
+    # Gitlab = "xxxx"
+    # Youtubelegacy = "xxxx"
+    # Youtubecustom = "xxxx"
+    # Youtubechannel = "xxxx"
+    # Tumblr ="xxxx"
+    # Quora = "xxxx"
+    # Keybase = "xxxx"
+    # Pinterest = "xxxx"
+    # Reddit = "xxxx"
+    # Codepen = "xxxx"
+    # Bitbucket = "xxxx"
+    # Stackoverflow = "xxxxx"
+    # Weibo = "xxxx"
+    # Odnoklassniki = "xxxx"
+    # VKontakte = "xxxx"
+    # Flickr = "xxxx"
+    # Xing = "xxxx"
+    # Snapchat = "xxxx"
+    # Soundcloud = "xxxx"
+    # Spotify = "xxxx"
+    # Bandcamp = "xxxx"
+    # Paypal = "xxxx"
+    # Fivehundredpx = "xxxx"
+    # Mix = "xxxx"
+    # Goodreads = "xxxx"
+    # Lastfm = "xxxx"
+    # Foursquare = "xxxx"
+    # Hackernews = "xxxx"
+    # Kickstarter = "xxxx"
+    # Patreon = "xxxx"
+    # Steam = "xxxx"
+    # Twitch = "xxxx"
+    # Strava = "xxxx"
+    # Skype = "xxxx"
+    # Whatsapp = "xxxx"
+    # Zhihu = "xxxx"
+    # Douban = "xxxx"
+    # Angellist = "xxxx"
+    # Slidershare = "xxxx"
+    # Jsfiddle = "xxxx"
+    # Deviantart = "xxxx"
+    # Behance = "xxxx"
+    # Dribble = "xxxx"
+    # Wordpress = "xxxx"
+    # Vine = "xxxx"
+    # Googlescholar = "xxxx"
+    # Researchgate = "xxxx"
+    # Mastodon = "xxxx"
+    # Thingiverse = "xxxx"
+
+[params.share]
+Twitter = true
+Facebook = true
+#Reddit = true
+Linkedin = true
+#Pinterest = true
+#HackerNews = true
+#Mix = true
+#Tumblr = true
+#VKontakte = true
+#Douban = true
+#Weibo = true
+
+# Used only for Seo schema
+copyright = "This work is licensed under a MIT License."
 
 [author]
   name = "ZigTag"
 
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 PST"
+  [params.publisher]
+    name = "ZigTag"
 
-  homeSubtitle = "by ZigTag"
+    [params.publisher.logo]
+      url = "https://avatars3.githubusercontent.com/u/17077422"
+      width = 128
+      height = 128
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  [params.logo]
+    url = "https://avatars3.githubusercontent.com/u/17077422"
+    width = 128
+    height = 128
 
-  # Metadata mostly used in document's head
-  description = "Homepage and blog by ZigTag"
-  keywords = "homepage, blog, development, programming"
-  images = [""]
+  [params.image]
+    url = "https://avatars3.githubusercontent.com/u/17077422"
+    width = 1280
+    height = 1280
 
-  # Directory name of your blog content (default is `content/posts`)
-  # contentTypeName = "posts"
-
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/ZigTag"
-
-[languages]
-  [languages.en]
-    title = "Welcome ~/"
-    subtitle = ""
-    keywords = ""
-    copyright = '<a href="https://choosealicense.com/licenses/mit/">MIT</a>'
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "cd ~/"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+# [params.gitalk]
+# owner = ""       # Your GitHub ID
+# repo = ""        # The repo to store comments
+# clientId = ""    # Your client ID
+# clientSecret = "" # Your client secret
+# 
+# [params.valine]
+#   enable = false
+#   language = 'en'
+#   appId = 'your appId'
+#   appKey = 'your appKey'
+#   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+#   verify = false # Verification code
+#   avatar = 'mm'
+#   placeholder = 'your comments ...'
+#   visitor = true
+# 
+# [params.utterances]       # https://utteranc.es/
+#     owner = ""              # Your GitHub ID
+#     repo = ""               # The repo to store comments
+# 
+# [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+#     owner = ""              # Your GitHub ID
+#     repo = ""               # The repo to store comments
+#     clientId = ""           # Your client ID
+#     clientSecret = ""       # Your client secret
