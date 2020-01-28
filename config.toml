@@ -54,7 +54,7 @@ enableEmoji = true
     description = "ZigTag's homepage and website" # site description
     keywords = "" # site keywords
 
-    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://choosealicense.com/licenses/mit/" target="_blank">MIT</a>'
+    license= 'Released under the <a rel="license external nofollow noopener noreffer" href="https://choosealicense.com/licenses/mit/" target="_blank">MIT License</a>'
 
 # [params.gravatar]
 #     #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
