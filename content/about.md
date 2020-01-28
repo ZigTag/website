@@ -1,4 +1,7 @@
-# About me
+---
+title: "About me"
+date: 2020-01-16T20:20:00-0800
+---
 
 I am a programmer that primarily uses [Rust](https://www.rust-lang.org/). I program in my free time when im not playing games.
 
