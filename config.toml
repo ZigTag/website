@@ -22,6 +22,8 @@ disable_comments = true
     keywords = "blog,developer,personal"
     avatarurl = "https://avatars3.githubusercontent.com/u/17077422"
 
+    colorscheme = "dark"
+
     # favicon_32 = "/img/favicon-32x32.png"
     # favicon_16 = "/img/favicon-16x16.png"
 
