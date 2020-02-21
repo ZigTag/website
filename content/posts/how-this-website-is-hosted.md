@@ -1,7 +1,7 @@
 ---
 date: 2020-02-20T22:10:00-0800
 title: "How this website is hosted"
-draft: true
+draft: false
 ---
 
 **Foreword: I am not sponsored, nor endorsed by any of the companies/programs shown here**
