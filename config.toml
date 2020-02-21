@@ -1,184 +1,63 @@
 baseurl = "https://zigtag.dev/"
-languageCode = "en-us"
 title = "zigtag.dev"
-theme = "KeepIt"
+theme = "Coder"
 publishdir = "public"
+languageCode = "en"
+defaultcontentlanguage = "en"
 
-enableEmoji = true
+paginate = 20
+canonifyurls = true
 
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-[blackfriday]
-  hrefTargetBlank = true
-  nofollowLinks = true
-  noreferrerLinks = true
-
-[Permalinks]
- posts = "/:year/:filename/"
-
-[menu]
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 1
-  
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 2
-
-  # [[menu.main]]
-  #   name = "Categories"
-  #   url = "/categories/"
-  #   weight = 3
+# disqusShortname = "yourdiscussshortname"
+disable_comments = true
 
 [params]
-    since = 2020
-    author = "ZigTag"               # Author's name
-    subtitle = "ZigTag's homepage and website"       # Subtitle
-    cdn_url = ""           # Base CDN URL
-    home_mode = "" # post or other
+    author = "ZigTag"
+    info = "Hobbiest Programmer"
+    description = "ZigTag's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "https://avatars3.githubusercontent.com/u/17077422"
 
-    # google_verification = ""
-    # bing_verification = ""
-    # yandex_verification = ""
-    # pinterest_verification = ""
-    # baidu_verification = ""
+    # favicon_32 = "/img/favicon-32x32.png"
+    # favicon_16 = "/img/favicon-16x16.png"
 
-    avatar = "https://avatars3.githubusercontent.com/u/17077422" #comment it to use gravatar
-    socialShare = false
+    footercontent = '<p>Website licensed under the <a href="https://choosealicense.com/licenses/mit/">MIT License</a></p>'
 
-    description = "ZigTag's homepage and website" # site description
-    keywords = "" # site keywords
+    hidecredits = false
+    hidecopyright = false
 
-    license= 'Released under the <a rel="license external nofollow noopener noreffer" href="https://choosealicense.com/licenses/mit/" target="_blank">MIT License</a>'
+    rtl = false
 
-# [params.gravatar]
-#     #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+    math = false
+    custom_css = ["css/custom.css"]
 
-
-[params.social]
-    GitHub = "https://github.com/ZigTag/website"
-    # Linkedin = "xxxx"
-    # Twitter = "xxxx"
-    # Instagram = "xxxx"
-    # Email   = "xxxx"
-    # Facebook = "xxxx"
-    # Telegram = "xxxx"
-    # Medium = "xxxx"
-    # Gitlab = "xxxx"
-    # Youtubelegacy = "xxxx"
-    # Youtubecustom = "xxxx"
-    # Youtubechannel = "xxxx"
-    # Tumblr ="xxxx"
-    # Quora = "xxxx"
-    # Keybase = "xxxx"
-    # Pinterest = "xxxx"
-    # Reddit = "xxxx"
-    # Codepen = "xxxx"
-    # Bitbucket = "xxxx"
-    # Stackoverflow = "xxxxx"
-    # Weibo = "xxxx"
-    # Odnoklassniki = "xxxx"
-    # VKontakte = "xxxx"
-    # Flickr = "xxxx"
-    # Xing = "xxxx"
-    # Snapchat = "xxxx"
-    # Soundcloud = "xxxx"
-    # Spotify = "xxxx"
-    # Bandcamp = "xxxx"
-    # Paypal = "xxxx"
-    # Fivehundredpx = "xxxx"
-    # Mix = "xxxx"
-    # Goodreads = "xxxx"
-    # Lastfm = "xxxx"
-    # Foursquare = "xxxx"
-    # Hackernews = "xxxx"
-    # Kickstarter = "xxxx"
-    # Patreon = "xxxx"
-    # Steam = "xxxx"
-    # Twitch = "xxxx"
-    # Strava = "xxxx"
-    # Skype = "xxxx"
-    # Whatsapp = "xxxx"
-    # Zhihu = "xxxx"
-    # Douban = "xxxx"
-    # Angellist = "xxxx"
-    # Slidershare = "xxxx"
-    # Jsfiddle = "xxxx"
-    # Deviantart = "xxxx"
-    # Behance = "xxxx"
-    # Dribble = "xxxx"
-    # Wordpress = "xxxx"
-    # Vine = "xxxx"
-    # Googlescholar = "xxxx"
-    # Researchgate = "xxxx"
-    # Mastodon = "xxxx"
-    # Thingiverse = "xxxx"
-
-[params.share]
-Twitter = true
-Facebook = true
-#Reddit = true
-Linkedin = true
-#Pinterest = true
-#HackerNews = true
-#Mix = true
-#Tumblr = true
-#VKontakte = true
-#Douban = true
-#Weibo = true
-
-# Used only for Seo schema
-copyright = "This work is licensed under a MIT License."
-
-[author]
-  name = "ZigTag"
-
-  [params.publisher]
-    name = "ZigTag"
-
-    [params.publisher.logo]
-      url = "https://avatars3.githubusercontent.com/u/17077422"
-      width = 128
-      height = 128
-
-  [params.logo]
-    url = "https://avatars3.githubusercontent.com/u/17077422"
-    width = 128
-    height = 128
-
-  [params.image]
-    url = "https://avatars3.githubusercontent.com/u/17077422"
-    width = 1280
-    height = 1280
-
-# [params.gitalk]
-# owner = ""       # Your GitHub ID
-# repo = ""        # The repo to store comments
-# clientId = ""    # Your client ID
-# clientSecret = "" # Your client secret
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/ZigTag"
+# [[params.social]]
+#     name = "Gitlab"
+#     icon = "fab fa-gitlab fa-2x"
+#     weight = 2
+#     url = "https://gitlab.com/johndoe/"
+# [[params.social]]
+#     name = "Twitter"
+#     icon = "fab fa-twitter fa-2x"
+#     weight = 3
+#     url = "https://twitter.com/johndoe/"
 # 
-# [params.valine]
-#   enable = false
-#   language = 'en'
-#   appId = 'your appId'
-#   appKey = 'your appKey'
-#   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-#   verify = false # Verification code
-#   avatar = 'mm'
-#   placeholder = 'your comments ...'
-#   visitor = true
-# 
-# [params.utterances]       # https://utteranc.es/
-#     owner = ""              # Your GitHub ID
-#     repo = ""               # The repo to store comments
-# 
-# [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-#     owner = ""              # Your GitHub ID
-#     repo = ""               # The repo to store comments
-#     clientId = ""           # Your client ID
-#     clientSecret = ""       # Your client secret
+# Menu links
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about/"
+[[menu.main]]
+    name = "Blog"
+    weight = 2
+    url  = "/posts/"
