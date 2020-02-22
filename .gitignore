@@ -1,6 +1,9 @@
 # Hugo
 resources/_gen
-public
+public/*
+
+#Netlify CMS
+!public/admin
 
 # Local Netlify folder
 .netlify
