@@ -40,7 +40,7 @@ disable_comments = true
 # Social links
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/ZigTag"
 # [[params.social]]
