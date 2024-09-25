@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://zigtag.dev/posts/</loc>
+    <lastmod>2020-02-22T01:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zigtag.dev/posts/2020-02-22-testing-my-cms-1/</loc>
+    <lastmod>2020-02-22T01:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zigtag.dev/</loc>
+    <lastmod>2020-02-22T01:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zigtag.dev/posts/how-this-website-is-hosted/</loc>
+    <lastmod>2020-02-20T22:10:00-08:00</lastmod>
+  </url><url>
+    <loc>https://zigtag.dev/posts/welcome-to-my-blog/</loc>
+    <lastmod>2020-01-16T21:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://zigtag.dev/about/</loc>
+    <lastmod>2020-01-16T20:20:00-08:00</lastmod>
+  </url><url>
+    <loc>https://zigtag.dev/categories/</loc>
+  </url><url>
+    <loc>https://zigtag.dev/tags/</loc>
+  </url>
+</urlset>

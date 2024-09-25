@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zigtag.dev</title>
+    <link>https://zigtag.dev/</link>
+    <description>Recent content on zigtag.dev</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Feb 2020 01:20:00 +0000</lastBuildDate>
+    <atom:link href="https://zigtag.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing my CMS</title>
+      <link>https://zigtag.dev/posts/2020-02-22-testing-my-cms-1/</link>
+      <pubDate>Sat, 22 Feb 2020 01:20:00 +0000</pubDate>
+      <guid>https://zigtag.dev/posts/2020-02-22-testing-my-cms-1/</guid>
+      <description>&lt;p&gt;I was bored so I decided to set up Netlify CMS, this post will show if it works properly. This post will also be for testing certain features of the website.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How this website is hosted</title>
+      <link>https://zigtag.dev/posts/how-this-website-is-hosted/</link>
+      <pubDate>Thu, 20 Feb 2020 22:10:00 -0800</pubDate>
+      <guid>https://zigtag.dev/posts/how-this-website-is-hosted/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Foreword: I am not sponsored, nor endorsed by any of the companies/programs shown here&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;Hello, welcome to my first real blog post. Today, were going over how this website was made. All of it is generated using &lt;a href=&#34;https://gohugo.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;. Hugo is a program that will generate a website from Markdown files. It makes making a website a breeze, this blogpost was entirely written in markdown.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to my blog</title>
+      <link>https://zigtag.dev/posts/welcome-to-my-blog/</link>
+      <pubDate>Thu, 16 Jan 2020 21:00:00 -0800</pubDate>
+      <guid>https://zigtag.dev/posts/welcome-to-my-blog/</guid>
+      <description>&lt;p&gt;Welcome to my blog/website, I will use this to post new projects and random stuff.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://zigtag.dev/about/</link>
+      <pubDate>Thu, 16 Jan 2020 20:20:00 -0800</pubDate>
+      <guid>https://zigtag.dev/about/</guid>
+      <description>&lt;p&gt;I am a programmer that primarily uses &lt;a href=&#34;https://www.rust-lang.org/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rust&lt;/a&gt;. I program in my free time when im not playing games.&lt;/p&gt;&#xA;&lt;p&gt;The programs I usually use are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/idea/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Intellij IDEA&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/firefox/new/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Last updated:&lt;/strong&gt; 2020-01-17 16:15 PST&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
