@@ -16,33 +16,38 @@ pygmentscodefencesguesssyntax = true
 disable_comments = true
 
 [params]
-    author = "ZigTag"
-    info = "Hobbiest Programmer"
-    description = "ZigTag's personal website"
-    keywords = "blog,developer,personal"
-    avatarurl = "https://avatars3.githubusercontent.com/u/17077422"
+author = "Katlyn Courtade"
+info = "Professional Software Developer"
+description = "My personal website"
+keywords = "blog,developer,personal"
+avatarurl = "https://avatars3.githubusercontent.com/u/17077422"
 
-    colorscheme = "dark"
+colorscheme = "dark"
 
-    # favicon_32 = "/img/favicon-32x32.png"
-    # favicon_16 = "/img/favicon-16x16.png"
+# favicon_32 = "/img/favicon-32x32.png"
+# favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = '<p>Website licensed under the <a href="https://choosealicense.com/licenses/mit/">MIT License</a></p>'
+footercontent = '<p>Website licensed under the <a href="https://choosealicense.com/licenses/mit/">MIT License</a></p>'
 
-    hidecredits = false
-    hidecopyright = false
+hidecredits = false
+hidecopyright = false
 
-    rtl = false
+rtl = false
 
-    math = false
-    custom_css = ["css/custom.css"]
+math = false
+custom_css = ["css/custom.css"]
 
 # Social links
 [[params.social]]
-    name = "Github"
-    icon = "fa fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/ZigTag"
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/ZigTag"
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/katlyn-courtade-080331226/"
 # [[params.social]]
 #     name = "Gitlab"
 #     icon = "fab fa-gitlab fa-2x"
@@ -56,10 +61,10 @@ disable_comments = true
 # 
 # Menu links
 [[menu.main]]
-    name = "About"
-    weight = 1
-    url = "/about/"
+name = "About"
+weight = 1
+url = "/about/"
 [[menu.main]]
-    name = "Blog"
-    weight = 2
-    url  = "/posts/"
+name = "Blog"
+weight = 2
+url = "/posts/"
